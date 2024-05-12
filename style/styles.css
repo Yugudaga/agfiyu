@@ -1,0 +1,133 @@
+
+ul {
+    text-align: left; /* Mengatur tulisan dalam <ul> menjadi rata kiri */
+    font-family:helvetica;
+    flex-direction: column;
+    font-size: 10px;
+}
+body, header, nav, .container, footer {
+    text-align: center; Mengatur semua tulisan menjadi di tengah */
+    font-family: Times New Roman;
+}
+}
+
+.title {
+    display: flex; /* Menggunakan flexbox untuk menempatkan elemen secara horizontal */
+    align-items: center; /* Mengatur penempatan vertikal elemen menjadi di tengah */
+    justify-content: center; /* Mengatur penempatan horizontal elemen menjadi di tengah */
+}
+
+.title img {
+    margin-right: 5px; /* Memberikan jarak antara gambar dan teks */
+}
+
+.title .text {
+    display: flex; /* Menggunakan flexbox untuk menempatkan elemen secara horizontal */
+    flex-direction: column; /* Menata tulisan menjadi satu kolom */
+    align-items: center; /* Mengatur penempatan vertikal tulisan menjadi di tengah */
+    justify-content: center; /* Mengatur penempatan horizontal tulisan menjadi di tengah */
+}
+
+footer {
+    text-align: center; /* Mengatur tulisan di dalam footer menjadi di tengah */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.content {
+    margin-top: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Menempatkan teks di atas kiri */
+}
+
+.awal {
+    font-size: 18px; /* Ukuran tulisan yang diperkecil */
+}
+.akhir{
+  font-size: 30px;
+  font-weight: bold;
+}
+.JikaAda{
+  Color:red;
+}
+
+footer {
+    font-size: 12px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    z-index: 999; /* Nilai z-index yang tinggi untuk footer */
+    position: fixed; /* Tetapkan posisi footer */
+    bottom: 0; /* Tempatkan footer di bagian bawah */
+    left: 0; /* Tempatkan footer di bagian kiri */
+    width: 100%; /* Lebar footer 100% dari lebar layar */
+    text-align: center; /* Posisi teks di tengah */
+}
+.title {
+    display: flex; /* Menggunakan flexbox untuk menempatkan elemen secara horizontal */
+    align-items: center; /* Mengatur penempatan vertikal elemen menjadi di tengah */
+}
+
+.title img {
+    margin-right: 5px; /* Memberikan jarak antara gambar dan teks */
+}
+
+.title .text {
+    display: flex; /* Menggunakan flexbox untuk menempatkan elemen secara horizontal */
+    flex-direction: column; /* Menata tulisan menjadi satu kolom */
+}
+.gambar-bulat {
+    border-radius: 50%; /* Mengatur border-radius menjadi 50% untuk membuat gambar menjadi bulat */
+}
+.ini{
+  font-family:helvetica;
+}
+.bt{
+  font-family: helvetica;
+}
+#message{
+  resize: none;
+  
+}
+nav{
+  opacity:50%;
+  font-family: Times New Roman;
+}
+.PPDB{
+  font-size: 25px;
+}
